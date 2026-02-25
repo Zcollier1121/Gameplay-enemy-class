@@ -11,4 +11,4 @@ All logic is managed within the class keeping it uncoupled and modular.
 # Movement
 A ghost can have one of two movement types Patrol and Chase.
 Patrol follows a linear path from point A to point B through lerping.
-[README Assets/Ghost Chase.png](https://github.com/user-attachments/assets/fcec0873-53ce-466f-9839-deb3d58e4590)
+[(README Assets/Ghost Chase.png)](https://github.com/user-attachments/assets/fcec0873-53ce-466f-9839-deb3d58e4590)
