@@ -1,6 +1,6 @@
  Gameplay-enemy-class
 This C++ class contains the data and functionality for the ghost enemy in Specter Inspector.
-All logic is managed within the class keeping it uncoupled and modular.
+All logic is managed within the class, keeping it uncoupled and modular.
 
 # Functionality
 - Movement: Patrol and Chase
@@ -9,7 +9,7 @@ All logic is managed within the class keeping it uncoupled and modular.
 - serialization
   
 # Movement
-A ghost can have one of two movement types Patrol and Chase.
+A ghost can have one of two movement types: Patrol and Chase.
 Patrol follows a linear path from point A to point B through lerping.
 
 [(README Assets/Ghost Chase.png)](https://github.com/user-attachments/assets/fcec0873-53ce-466f-9839-deb3d58e4590)
@@ -27,4 +27,4 @@ Ghosts slowly become visible the closer they are to the player. Starting complet
 https://github.com/user-attachments/assets/8c4191c0-848c-42e6-8022-81e9e8ef03a9
 
 #Serialization
-Ghosts can be serialized and deserialized into a json file to allow for designers to quickly create and iterate. Ghosts can have their spawn, movement type, patrol path, speed, etc modified.
+Ghosts can be serialized and deserialized to a JSON file, allowing designers to quickly create and iterate. Ghosts can have their spawn, movement type, patrol path, speed, etc., modified.
